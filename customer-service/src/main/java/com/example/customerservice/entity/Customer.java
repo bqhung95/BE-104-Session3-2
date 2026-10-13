@@ -26,7 +26,6 @@ public class Customer {
     @Column(nullable = false)
     private String password;   // Lưu dạng BCrypt hash
 
-    private String address;
 
     // Constructors, Getters, Setters
 }
